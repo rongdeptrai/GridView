@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item  android:title="Singer"
+        android:id="@+id/fr"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:title="Your Song"
+        android:id="@+id/album"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="Play"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_email_24"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/pr"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:showAsAction="collapseActionView"/>
+</menu>
